@@ -1,0 +1,96 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "editor.tabCompletion": "on",
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  //SASS Live Compiler
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/assets/css/"
+    }
+  ],
+  //SASS Live Compiler - Autoprefix
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  //
+  //------this text allows to use emmet in react, ex.: section+section and then TAB creates 2 sections
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // "editor.formatOnSave": false,
+
+  "beautify.config": "",
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.linkedEditing": true,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "git.ignoreWindowsGit27Warning": true,
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 1,
+  //
+  //
+
+  //whenever you want to put here something, put it BEFORE the last bracket "}" that is below and use ","
+
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // BELOW IS TERMINAL PROFILE AND IT IS GIT
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "git": {
+      "path": "D:\\Program Files\\Git\\bin\\bash.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "git"
+}
